@@ -13,6 +13,8 @@ source env/bin/activate
 ```
 sudo dnf install -y python3-pip git ncurses-devel zeromq-devel cairo-devel pango-devel file-devel blas-devel lapack-devel
 ```
+
+IHaskell (from repo guide)
 ```
 mkdir -p .dependencies
 cd .dependencies
@@ -46,4 +48,8 @@ notebook<7
 numpy
 matplotlib
 torch --extra-index-url https://download.pytorch.org/whl/cu116
+```
+copy to .txt file and use:
+```
+pip install -r requirements.txt
 ```
